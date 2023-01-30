@@ -1,0 +1,21 @@
+.header-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.header-link__icon {
+  margin: auto 0;
+  width: 30px;
+  height: 30px;
+  background: url("../../../content/icon/volcanoes.svg") no-repeat;
+}
+
+.header-link__text {
+  margin: auto 0;
+  font-family: "LatoSemiBold";
+  font-size: 16px;
+  line-height: 19px;
+  color: #3dabf7;
+}

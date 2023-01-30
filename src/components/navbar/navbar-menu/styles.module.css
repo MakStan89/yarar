@@ -1,0 +1,76 @@
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 57px 28px 59px 53px;
+}
+
+.navbar-menu-item {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  height: 40px;
+  color: #dfe6eb;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.navbar-menu-item__text {
+  display: inline-block;
+  height: 26px;
+  font-family: "LatoRegular";
+  font-size: 18px;
+  line-height: 26px;
+  margin: auto 0;
+  text-align: start;
+}
+
+.active {
+  color: #fff;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  background-color: #fff;
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+}
+
+.where {
+  background: url("../../../content/icon/where.svg") no-repeat;
+}
+
+.when {
+  background: url("../../../content/icon/when.svg") no-repeat;
+}
+
+.whom {
+  background: url("../../../content/icon/whom.svg") no-repeat;
+}
+
+.description {
+  background: url("../../../content/icon/description.svg") no-repeat;
+}
+
+.what-to-do {
+  background: url("../../../content/icon/what-to-do.svg") no-repeat;
+}
+
+.terms {
+  background: url("../../../content/icon/terms.svg") no-repeat;
+}
+
+.finishing-touches {
+  background: url("../../../content/icon/finishing-touches.svg") no-repeat;
+}
+
+.back {
+  background: url("../../../content/icon/back.svg") center no-repeat;
+}

@@ -1,0 +1,29 @@
+.header-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header-user__name {
+  margin: auto 0;
+  font-family: "LatoSemiBold";
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.header-user__photo {
+  margin: auto 0;
+  width: 30px;
+  height: 30px;
+  background: url("../../../content/icon/user.svg") no-repeat;
+  cursor: pointer;
+}
+
+.header-user__arrow {
+  margin: auto 0;
+  width: 6px;
+  height: 3px;
+  background: url("../../../content/icon/arrow.svg") no-repeat;
+  cursor: pointer;
+}

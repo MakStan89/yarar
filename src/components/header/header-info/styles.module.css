@@ -1,0 +1,49 @@
+.header-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 555px;
+  padding-right: 260px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.header-info__logo {
+  margin: auto 0;
+  width: 45px;
+  height: 45px;
+  background: url("../../../content/icon/logo.svg") no-repeat;
+  cursor: pointer;
+}
+
+.header-info__name {
+  margin: auto 10px auto 0;
+  width: 130px;
+  height: 41px;
+  background: url("../../../content/icon/name.svg") no-repeat;
+  cursor: pointer;
+}
+
+.header-info-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3px;
+  font-family: "LatoRegular";
+}
+
+.language-name {
+  font-size: 14px;
+  line-height: 16px;
+  height: 17px;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.language-arrow {
+  margin: auto 0;
+  width: 6px;
+  height: 3px;
+  background: url("../../../content/icon/arrow.svg") no-repeat;
+  cursor: pointer;
+}

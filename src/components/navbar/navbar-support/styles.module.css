@@ -1,0 +1,53 @@
+.navbar-support {
+  width: 242px;
+  border: 1px solid #8494a1;
+  align-self: center;
+  text-align: center;
+  padding: 19px 20px 24px;
+}
+
+.navbar-support__photo {
+  background: url("../../../content/icon/support.svg") no-repeat;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+}
+
+.navbar-support__name {
+  font-family: "LatoBold";
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.navbar-support__text {
+  font-family: "LatoRegular";
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.navbar-support__button {
+  font-family: "LatoRegular";
+  font-size: 16px;
+  line-height: 32px;
+  color: #3dabf7;
+  border: 1px solid #3dabf7;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 37px;
+}
+
+.navbar-support__email {
+  font-family: "LatoRegular";
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.navbar-support__email a {
+  color: #3dabf7;
+}
